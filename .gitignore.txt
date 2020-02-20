@@ -12,3 +12,4 @@
 *.sar
 HomeWork_javaCore_6_2/
 Lessons/
+.metadata/
