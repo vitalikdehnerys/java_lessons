@@ -10,6 +10,7 @@
 *.war
 *.ear
 *.sar
-HomeWork_javaCore_6_2/
-Lessons/
-.metadata/
+HomeWork_javaCore_6_2
+Lessons
+.metadata
+java_lessons
