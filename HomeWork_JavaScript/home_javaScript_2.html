@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title> My second homework by JAVASCRIPT</title>
+    </head>
+    
+    <body>
+        <script>
+
+            // task 1
+            // var products =["apple","orange","lemon","bred","water"];
+            // console.log(products[products.length-1]);
+            // console.log(products.pop());
+
+            //task 2
+            // var styles =["Jaz","Bluzz"];
+            // styles.push("Rock&Roll");
+            // styles[styles.length-2]="Classic";
+            // console.log(styles.shift());
+            // styles.unshift("Rep");
+            // styles.unshift("Reggi");
+            // console.log(styles);
+            
+            // task 3
+            // var arrArr = [1,2,3,4,5,6,7,8,9,0,98,76,64,12];
+            // var result=-1;
+            // function findValue(arr, value){
+            //       for (var i = 0; i < arr.length; i++) {
+            //             if(arr[i]==value){
+            //                   result=i;
+            //             }
+            //       }
+            //       console.log(result);
+            // }
+
+            // findValue(arrArr,9);
+
+            //task4.min
+            // var arrNumber=[9,12,-6,43,1,6,78,0,-2,-13,-45,-8,45,54,5,-29,99,-78];
+            // function compareArrFromMin(a,b){
+            //       return a-b;
+            // }
+
+            // function compareArrFromMax(a,b){
+            //       return b-a;
+            // }
+
+            // console.log("Sort from min : "+arrNumber.sort(compareArrFromMin));
+            // console.log("Sort from max : "+arrNumber.sort(compareArrFromMax));
+
+            // var positiveArr= arrNumber.filter(function(number){
+            //       return number>=0;
+            // });
+            // console.log("Array of not-negative numbers : "+positiveArr);
+
+            // var negativeArr= arrNumber.filter(function(number){
+            //       return number<0;
+            // });
+            // console.log("Array of negative numbers : "+negativeArr);
+
+            //task4.max
+            // arrNumber=[9,12,-6,43,1,6,78,0,-2,-13,-45,-8,45,54,5,-29,99,-78];
+
+            // function compareArr(a,b){
+            //       return a-b;
+            // }
+
+            // function filterRange(array,a,b){
+               
+            // var newArr =array.filter(function(number){
+            //       return (number>=a)&&(number<=b);
+            // }); 
+            // return newArr.sort(compareArr); 
+            // }
+
+            // console.log(filterRange(arrNumber,-10,10));
+
+            // task 5
+
+            // var str="my-short-string";
+
+            // function camelize(str1){
+            //       var newArray =str1.split("-");
+            //       return newString=newArray.join("");
+            // }
+
+            // console.log(camelize(str));
+
+            //task 6
+            var arrStudent=[{yearOfStuding:1 , facultyName:"Math"},{yearOfStuding:2 , facultyName:"Math"},{yearOfStuding:3 , facultyName:"Math"},{yearOfStuding:1 , facultyName:"Math"},{yearOfStuding:1 , facultyName:"Math"},{yearOfStuding:4 , facultyName:"Math"},{yearOfStuding:5 , facultyName:"Math"},{yearOfStuding:5 , facultyName:"Math"},{yearOfStuding:3 , facultyName:"Math"},{yearOfStuding:2 , facultyName:"Math"},];
+            var arrStuWithYearOfStuding =arrStudent.filter(function(student){
+                  return student.yearOfStuding;
+            });
+
+            var arrStuWithFacultyName =arrStudent.filter(function(student){
+                  return student.facultyName;
+            });
+
+            console.log(arrStuWithYearOfStuding);
+            console.log(arrStuWithFacultyName);
+
+        </script>
+    </body>
+</html>
