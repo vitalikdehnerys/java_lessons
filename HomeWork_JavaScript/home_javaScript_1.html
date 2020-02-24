@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title> My first homework by JAVASCRIPT</title>
+    </head>
+    
+    <body>
+        <script>
+            // task 1
+            var admin, name;
+            name ='John';
+            admin=name;
+            window.alert(admin);
+            
+            // task 2
+            var login,password;
+            login ='admin';
+            if(login=='cancel'){
+                console.log("Canceled");
+            }else if(login=="Other"){
+                console.log("I don't now you");
+            }else if(login=="Admin"){
+                password="TheMaster";
+                if(password=='Cancel'){
+                    console.log("Canceled");
+                }else if(password=="Other"){
+                    console.log("Wrong password");
+                }else if(password=="TheMaster"){
+                    console.log("Welcome");
+                }
+            }
+            
+            //task 3
+            var user ={};
+            user.name = "Pylyp";
+            user.surname ="Shevchenko";
+            user.name = "Serhiy";
+            delete user.name;
+            
+            // task 4
+            
+            var employeeSalaries= {salary1=10000, salary2 = 20000,salary3 = 20000,salary4 = 20000,salary5 = 20000,salary6 = 15000, salary7 = 40000,};
+            
+            for (key in employeeSalaries){
+                console.log(key);
+            }
+            
+            // task 5
+            var sum,minus,multiplty,devide;
+            
+            sum = function calcSum(var a,var b){
+                return a+b;
+            }
+            
+            minus = function calcMinus(var a,var b){
+                return a-b;
+            }
+            
+            multiplty = function calcMultiply(var a,var b){
+                return a*b;
+            }
+            
+            devide = function calcDevide(var a,var b){
+                return a/b;
+            }
+            
+            function funcWithType(var x,var y, fuction z) {
+                return z(x,y);
+            }
+            
+            
+            
+            
+            // task 6
+            var login,password;
+            login ='Admin';
+            password = 'TheMaster';
+            switch(login){
+                    
+                case ("Cancel"):
+                    console.log("Canceled");
+                    break;
+                    
+                case ("Other"):
+                    console.log("I don't now you");
+                    break;
+                    
+                case ("Admin"):
+                    switch(password){
+                            
+                        case ("Cancel"):
+                            console.log("Canceled");
+                            break;
+
+                        case ("Other"):
+                            console.log("Wrong password");
+                            break;
+
+                        case ("TheMaster"):                        
+                            console.log("Welcome");
+                            break;
+                    }
+            }
+            
+        </script>
+    </body>
+</html>
